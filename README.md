@@ -23,9 +23,10 @@ In addition to the embedded firmware, the project integrates MQTT-based data for
 * MQTT data forwarding
 * OpenHAB dashboard visualization
 * Event-driven alarm state machine
-* Low power operation
 * Periodic uplink transmission
 * System status monitoring
+* Power management
+
 
 ---
 
@@ -36,7 +37,7 @@ In addition to the embedded firmware, the project integrates MQTT-based data for
 * MPU6050 accelerometer
 * MFRC522 RFID reader
 * LoRa transceiver
-* Battery-powered embedded system
+
 
 ---
 
@@ -48,9 +49,7 @@ The firmware is structured into modular embedded software components:
 * RFID authentication
 * GNSS handling
 * LoRaWAN communication
-* MQTT integration
 * Alarm state machine
-* Power management
 * Embedded event handling
 
 The system transmits telemetry data over LoRaWAN to The Things Network (TTN). The data is then forwarded via MQTT and visualized in OpenHAB for monitoring and status analysis.
@@ -83,8 +82,7 @@ Media/         -> Images and project screenshots
 
 ## Development Tools
 
-* Mbed Studio
-* Git / GitHub
+* Mbed Studio / MbedOS
 * Logic Analyzer
 * Oscilloscope
 * ST-Link Debugger
