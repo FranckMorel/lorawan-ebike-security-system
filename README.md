@@ -10,7 +10,7 @@ This project was developed as part of a practical embedded systems and IoT secur
 
 The firmware was developed for STM32 ARM microcontrollers using C/C++ with a hardware-oriented and event-driven software architecture.
 
-In addition to the embedded firmware, the project integrates MQTT-based data forwarding and visualization using OpenHAB for remote monitoring and system interaction.
+The system transmits telemetry data over LoRaWAN to The Things Network (TTN). The data is then forwarded via MQTT and visualized in OpenHAB for monitoring and status analysis.
 
 ---
 
@@ -18,9 +18,9 @@ In addition to the embedded firmware, the project integrates MQTT-based data for
 
 * Motion detection using MPU sensor
 * GNSS position tracking
-* RFID-based user authentication
+* RFID user authentication
 * LoRaWAN communication via The Things Network (TTN)
-* MQTT data forwarding
+* MQTT for data transfer
 * OpenHAB dashboard visualization
 * Event-driven alarm state machine
 * Periodic uplink transmission
@@ -50,9 +50,8 @@ The firmware is structured into modular embedded software components:
 * GNSS handling
 * LoRaWAN communication
 * Alarm state machine
-* Embedded event handling
+* Event handling
 
-The system transmits telemetry data over LoRaWAN to The Things Network (TTN). The data is then forwarded via MQTT and visualized in OpenHAB for monitoring and status analysis.
 
 ---
 
