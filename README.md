@@ -1,6 +1,6 @@
 # STM32 LoRaWAN E-Bike Security System
 
-Embedded anti-theft and tracking system for E-Bikes based on STM32, LoRaWAN, GNSS, RFID authentication and MQTT-based monitoring.
+Smart anti-theft and tracking system for E-Bikes based on STM32, LoRaWAN, GNSS, RFID authentication and MQTT-based monitoring.
 
 ---
 
