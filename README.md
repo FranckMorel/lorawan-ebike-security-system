@@ -75,6 +75,10 @@ The firmware is written in C/C++ using a modular and hardware-oriented embedded 
 | 3.3V | 3.3V |
 | GND | GND |
 
+LoRa Transceiver
+
+The SX1276 LoRa transceiver is integrated on the STM32L072CZ-LRWAN1 Discovery Board and internally connected to the MCU SPI interface.
+
 ---
 
 ## Firmware Modules
