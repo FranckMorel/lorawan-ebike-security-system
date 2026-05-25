@@ -135,6 +135,12 @@ Media/         -> Images and project screenshots
 
 ---
 
+## LoRaWAN Stack
+
+The LoRaWAN stack integration is based on the official MbedOS LoRaWAN example application provided by Arm Mbed.
+
+The project extends and adapts the original example implementation with custom application logic, payload handling, sensor integration and state machine for the E-Bike security use case.
+
 ## Author
 
 **Franck Morel Tonfack**
