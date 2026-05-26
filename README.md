@@ -114,6 +114,7 @@ Media/         -> Images and project screenshots
 - Logic Analyzer
 - Oscilloscope
 - ST-Link Debugger
+- KiCad
 
 ---
 
